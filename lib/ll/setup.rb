@@ -3,7 +3,8 @@ require_relative 'driver'
 require_relative 'driver_config'
 require_relative 'parser_error'
 require_relative 'configuration_compiler'
-require_relative '../libll'
+
+require  'libll'
 
 #:nocov:
 if RUBY_PLATFORM == 'java'
